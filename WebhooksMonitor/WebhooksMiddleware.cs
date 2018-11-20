@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace WebhooksDiag
+namespace WebhooksMonitor
 {
     public class WebhooksMiddleware
     {

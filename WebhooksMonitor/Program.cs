@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 
-namespace WebhooksDiag
+namespace WebhooksMonitor
 {
     public class Program
     {

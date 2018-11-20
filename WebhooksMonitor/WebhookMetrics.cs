@@ -3,7 +3,7 @@ using App.Metrics.Histogram;
 using App.Metrics.Meter;
 using System;
 
-namespace WebhooksDiag
+namespace WebhooksMonitor
 {
     public sealed class WebhookMetrics
     {

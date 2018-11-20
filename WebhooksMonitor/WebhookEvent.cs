@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebhooksDiag
+namespace WebhooksMonitor
 {
     public sealed class WebhookEvent
     {

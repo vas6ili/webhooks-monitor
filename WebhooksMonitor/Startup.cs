@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WebhooksDiag
+namespace WebhooksMonitor
 {
     public class Startup
     {
@@ -34,8 +34,6 @@ namespace WebhooksDiag
             app.Map("/accept", mapped => mapped.UseMiddleware<WebhooksMiddleware>());
 
             app.UseMetricsAllEndpoints();
-
-            app.UseStaticFiles();
         }
     }
 }
